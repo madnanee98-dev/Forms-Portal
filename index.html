@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deployment Forms Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb;
+        }
+    </style>
+</head>
+<body class="min-h-screen p-4 md:p-8">
+
+    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-xl p-6 md:p-10 border border-gray-100">
+
+        <header class="text-center mb-10">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-indigo-700">
+                Deployment & Asset Management Portal
+            </h1>
+            <p class="text-gray-500 mt-2 text-lg">
+                Please select the appropriate form for your submission.
+            </p>
+        </header>
+
+        <main class="space-y-6">
+
+            <!-- Form Link Card 1: Employees Database -->
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScjX8QH0gkp4D3Us6Ps1zofRZt8mDVD03dYetWFRC5-_fTjPA/viewform?usp=preview" target="_blank" class="block">
+                <div class="p-5 border border-indigo-200 bg-indigo-50 rounded-lg transition duration-300 ease-in-out hover:bg-indigo-100 hover:shadow-md cursor-pointer flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-indigo-600 mr-4 flex-shrink-0">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18L10.5 21 12.75 18M15 17.25h.75A2.25 2.25 0 0018 15V6.75A2.25 2.25 0 0015.75 4.5H5.25A2.25 2.25 0 003 6.75v8.25A2.25 2.25 0 005.25 18H6m-7.5 0h12a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.186.44l-1.423 2.06c-.332.484-.967.63-1.517.34l-4.394-2.247c-.575-.294-.967-.887-.967-1.554V12a2.25 2.25 0 00-2.25-2.25h-.75" />
+                    </svg>
+                    <div>
+                        <p class="font-semibold text-gray-800 text-lg">Vehicular Deployment / Updates</p>
+                        <p class="text-sm text-gray-600">Use this form to track new vehicles or update existing vehicle status (The form we just worked on).</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Form Link Card 2: Vehicular Database -->
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQqGcrl5KXs0LkfkRlfxKrnJkHwy_XYHYwrFU--2S1KNCAUQ/viewform?usp=preview" target="_blank" class="block">
+                <div class="p-5 border border-purple-200 bg-purple-50 rounded-lg transition duration-300 ease-in-out hover:bg-purple-100 hover:shadow-md cursor-pointer flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-purple-600 mr-4 flex-shrink-0">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.006a3 3 0 01-5.748 1.33A2.396 2.396 0 013 21h18c.63 0 1.157-.466 1.192-1.091A2.404 2.404 0 0021 18.75V17.25M17.25 12V7.5M17.25 12h-7.5m7.5 0l-1.5 1.5m1.5-1.5l-1.5-1.5m-1.5 7.5l-.75-3.75 2.14-2.14a3 3 0 00-.012-4.24l-3.237-3.236a3 3 0 00-4.24-.012l-2.14 2.14-.75-3.75v1.373a6 6 0 005.85 5.927l.764.191a6 6 0 0111.458 1.996z" />
+                    </svg>
+                    <div>
+                        <p class="font-semibold text-gray-800 text-lg">Equipment & Tool Assignment</p>
+                        <p class="text-sm text-gray-600">For submitting data on specialized equipment, spare parts, or mobile tools.</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Form Link Card 3: Personnel Training -->
+            <a href="YOUR_TRAINING_FORM_LINK_HERE" target="_blank" class="block">
+                <div class="p-5 border border-emerald-200 bg-emerald-50 rounded-lg transition duration-300 ease-in-out hover:bg-emerald-100 hover:shadow-md cursor-pointer flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-emerald-600 mr-4 flex-shrink-0">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5M12 4.5e2V3.75h-.75V3h-.75M4.5 9h15m-15 4.5h15m-15 4.5h15" />
+                    </svg>
+                    <div>
+                        <p class="font-semibold text-gray-800 text-lg">Personnel Certification & Training Log</p>
+                        <p class="text-sm text-gray-600">Record training completion dates and certification statuses for field staff.</p>
+                    </div>
+                </div>
+            </a>
+
+        </main>
+
+        <footer class="mt-10 pt-6 border-t text-center text-gray-400 text-sm">
+            Portal Version 1.0 | Contact Admin for support
+        </footer>
+
+    </div>
+</body>
+</html>
